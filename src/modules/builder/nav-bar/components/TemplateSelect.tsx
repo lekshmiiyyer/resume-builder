@@ -15,21 +15,8 @@ export const StyledLink = styled(Link)(({ theme }) => ({
 
 export const TemplateSelect = () => {
   return (
-    <div className={`h-[459px] w-[600px] bg-white flex flex-col px-10 py-[23px] shadow-2xl`}>
+    <div className={`h-[400px] w-[600px] bg-white flex flex-col px-10 py-[23px] shadow-2xl`}>
       <TemplateSlider />
-      <Divider />
-      <span className="text-resume-800 font-bold text-lg my-[14px]">
-        Want to build your own template?
-      </span>
-      <div>
-        <OutlinedButton
-          onClick={() => {
-            window.open('https://github.com/sadanandpai/resume-builder', '_blank');
-          }}
-        >
-          Contribute on Github
-        </OutlinedButton>
-      </div>
     </div>
   );
 };

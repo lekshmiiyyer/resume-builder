@@ -2,32 +2,25 @@ import Image from 'next/image';
 
 const persons = [
   {
-    name: 'Sadanand Pai',
+    name: 'Lekshmi L',
     role: 'Frontend developer',
-    avatar: 'https://avatars.githubusercontent.com/u/12962887?v=4',
-    github: 'https://github.com/sadanandpai',
-    linkedin: 'https://www.linkedin.com/in/sadanandpai/',
+    avatar: '/lekshmi.jpg',
+    github: 'https://github.com/lekshmiiyyer',
+    linkedin: 'https://www.linkedin.com/in/lekshmi-l/',
   },
   {
-    name: 'Gopalakrishnan',
+    name: 'Goutham Krishna ',
     role: 'Frontend developer',
-    avatar: 'https://avatars.githubusercontent.com/u/22369081?v=4',
-    github: 'https://github.com/gopal1996',
-    linkedin: 'https://www.linkedin.com/in/gopal1996',
+    avatar: '/goutham.jpg',
+    github: 'https://github.com/gouthamk490',
+    linkedin: 'https://www.linkedin.com/in/goutham-krishna490/',
   },
   {
-    name: 'Vivek G',
-    role: 'Product designer, half developer',
-    avatar: 'https://avatars.githubusercontent.com/u/26523871?v=4',
-    github: 'https://github.com/yakshaG',
-    linkedin: 'https://www.linkedin.com/in/vivek-g-india',
-  },
-  {
-    name: 'Siva K',
+    name: 'Anand Warrier T',
     role: 'Frontend developer',
-    avatar: 'https://avatars.githubusercontent.com/u/60533560?v=4',
-    github: 'https://github.com/siva-kannan3',
-    linkedin: 'https://www.linkedin.com/in/siva-kannan3/',
+    avatar: '/anand.jpg',
+    github: 'https://github.com/Anand-warrier',
+    linkedin: 'https://www.linkedin.com/in/anand-warrier-t/',
   },
 ];
 
