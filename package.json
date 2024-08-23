@@ -9,7 +9,6 @@
     "lint": "next lint",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "test": "jest",
     "prepare": "husky install"
   },
   "dependencies": {
@@ -64,7 +63,6 @@
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-storybook": "^0.5.8",
     "husky": "^7.0.0",
-    "jest": "^27.5.1",
     "postcss": "^8.4.12",
     "prettier": "2.6.2",
     "pretty-quick": "^3.1.3",
