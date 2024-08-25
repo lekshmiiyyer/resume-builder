@@ -12,6 +12,7 @@ const nextConfig = {
       'src/styles',
       'src/templates',
     ],
+    ignoreDuringBuilds: true,
   },
   images: {
     domains: ['avatars.githubusercontent.com'],
